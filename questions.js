@@ -16,11 +16,11 @@ confirmName = confirm("Hi " +userName + " Welcome to my page!"); //Confirm the u
 }
 userFavColor = prompt("What's your favorite color?"); //Ask the user's favorite color
 if(userFavColor != null){
-confirmFavColor = confirm("Awesome! I bet"  +userFavColor +"looks great on you!"); //Confirm the user's entry.
+confirmFavColor = confirm("Awesome! I bet "  +userFavColor + " looks great on you!"); //Confirm the user's entry.
 }
 userFavFood = prompt("What's your favorite food?");
 if(userFavFood !=null){ //States what to do if the field is not empty.
-confirmFavFood =confirm("Great choice! I'm sure " +userFavFood  +"tastes great.");
+confirmFavFood =confirm("Great choice! I'm sure " +userFavFood  + " tastes great.");
 }
 userLocation = prompt("Where are you located so I can get the weather for you today?");
 confirmLocation = confirm("I hope the weather is nice in " +userLocation+ " today!"); //Confirms the user's lcoation.
