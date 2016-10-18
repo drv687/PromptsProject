@@ -1,46 +1,17 @@
 <!DOCTYPE html>
 <html>
-<style>
-body {
-      text-align: center;
-	   background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 22px;
-    }
-    }
-</style>
 <head>
 <title>
 Questions
 </title>
 </head>
 <body>
-<h1> Hi </h1>
-<p> Today I have some questions for you. </p>
+<script src = "questions.js"></script>
+<p> Click below to check the weather for your location. </p>
+<button onclick = "weatherFunction()">Show Me The Weather </button>
 <script>
-//Creates a script to ask the user some questions. 
-var userName;
-var userFavColor;
-var userFavFood; 
-var confirmName;
-var confirmFavColor;
-var confirmFavFood;
-
-userName = prompt("Hi. What's your name?"); //Ask the user their name.
-if(userName !=null){
-confirmName = confirm("Hi " +userName + " Welcome to my page!"); //Confirm the user's entry and greet the user.
-}
-userFavColor = prompt("What's your favorite color?"); //Ask the user's favorite color
-if(userFavColor != null){
-confirmFavColor = confirm("Awesome! I bet your favorite color is "   +userFavColor); //Confirm the user's entry. 
-}
-userFavFood = prompt("What's your favorite food?");
-if(userFavFood !=null){ //States what to do if the field is not empty. 
-confirmFavFood =confirm("Great choice! You like " +userFavFood);
+function weatherFunction(){
+  window.open("https://weather.com/");
 }
 </script>
 </body>
